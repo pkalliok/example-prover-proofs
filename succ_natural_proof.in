@@ -1,0 +1,9 @@
+
+formulas(assumptions).
+  natural(Zero).
+  natural(x) -> natural(succ(x)).
+end_of_list.
+
+formulas(goals).
+  natural(succ(succ(succ(succ(Zero))))).
+end_of_list.

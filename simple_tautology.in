@@ -1,0 +1,5 @@
+
+formulas(goals).
+ a & b & c <-> c & b & a.
+end_of_list.
+
