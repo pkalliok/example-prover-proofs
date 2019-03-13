@@ -1,0 +1,9 @@
+
+formulas(assumptions).
+ all n (n + Zero = n).
+ all n all m (n + succ(m) = succ(n) + m).
+end_of_list.
+
+formulas(goals).
+ succ(Zero) + succ(succ(Zero)) = succ(succ(succ(Zero))).
+end_of_list.

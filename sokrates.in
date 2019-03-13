@@ -1,0 +1,10 @@
+
+formulas(assumptions).
+ human(x) -> mortal(x).
+ human(Sokrates).
+end_of_list.
+
+formulas(goals).
+ mortal(Sokrates).
+end_of_list.
+
